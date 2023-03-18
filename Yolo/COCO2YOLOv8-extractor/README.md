@@ -21,6 +21,8 @@
 ### 5. Download multiple classes:  
 `python yolo_coco_class_extractor.py --class_name [car,person,banana] --new_class_id [2,0,1] --num_images 100`
 ### Folder structure after image and label download:
+
+```
 dwn_img_labels/
 └── class_name/
     ├── train/
@@ -32,6 +34,7 @@ dwn_img_labels/
     └── validation/
         ├── images/
         └── labels/
+```
 
 # visual interpretor
 -Since the annotated images may contain some mislabeled boxes or wrong classes. Therefore to remove these images we need a visual interpretor and this program does that.
